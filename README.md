@@ -1,11 +1,46 @@
-# Agentic AI Triage — Disaster Medical Intelligence System
+Project Overview
+Agentic AI Triage — Disaster Medical Intelligence System
 
+An offline-first, AI-powered disaster medical triage platform designed to support emergency healthcare assessment in disaster-affected regions.
+
+The system combines on-device artificial intelligence, agentic workflows, and low-bandwidth communication to support patient assessment and information sharing with emergency responders.
+
+Project Highlights
+Offline-First AI: Designed to assess patient symptoms without continuous internet access.
+
+AI-Powered Triage: Supports RED, AMBER, and GREEN urgency classifications.
+
+Agentic AI Architecture: Uses Google ADK for server-side AI workflows.
+
+Low-Bandwidth Communication: Uses Protocol Buffers for compact medical data transmission.
+
+Medical Reporting: Designed to generate structured SOAP reports.
+
+Emergency Response Dashboard: Provides a web-based interface for healthcare responders.
+
+Technology Stack
+Mobile: React Native, Expo, TypeScript
+
+AI: Llama 3.2 1B, Gemini, Google ADK
+
+Backend: Python, FastAPI, PostgreSQL, Redis, Celery
+
+Dashboard: Next.js, Tailwind CSS, Leaflet.js
+
+Communication: Protocol Buffers, Socket.IO
+
+Project Background
+Developed as a collaborative Final Year Project exploring how Agentic AI and offline-first technologies can support healthcare triage during disaster-response scenarios.
+
+Disclaimer
+This is an academic prototype and has not been established as clinically validated. It is not intended for real-world medical diagnosis or emergency treatment decisions.
+
+# Agentic AI Triage — Disaster Medical Intelligence System
 An offline-first mobile platform that collects symptoms from disaster-affected patients, performs clinical triage on-device, and transmits compressed SOAP reports to an NGO/hospital command dashboard — even over 2G/GPRS or with no internet at all.
 
 ---
 
 ## What This System Does
-
 1. A patient in a disaster zone opens the mobile app on their phone
 2. They describe their symptoms to an AI chat agent
 3. The app classifies their condition as RED (critical), AMBER (urgent), or GREEN (minor) — this works fully offline
