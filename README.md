@@ -1,5 +1,5 @@
-### Agentic AI Triage — Disaster Medical Intelligence System
-# Project Overview
+# Agentic AI Triage — Disaster Medical Intelligence System
+### Project Overview
 An offline-first, AI-powered disaster medical triage platform designed to support emergency healthcare assessment in disaster-affected regions.
 
 The system combines on-device artificial intelligence, agentic workflows, and low-bandwidth communication to support patient assessment and information sharing with emergency responders.
